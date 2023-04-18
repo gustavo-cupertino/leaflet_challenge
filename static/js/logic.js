@@ -104,8 +104,6 @@ legend.onAdd = function() {
 
     div.innerHTML = legendInfo
 
-    // go through each magnitude item to label and color the legend
-    // push to labels array as list item
 
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=('<i style="background:' + (labels[i]) + '"></i>' + grades[i] +
